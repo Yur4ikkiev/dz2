@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <style>
+      .cat__item,
+      .dog__item {
+        vertical-align: top;
+      }
+
+      img {
+        margin-top: -3px;
+      }
+    </style>
+  </head>
+  <body>
+    <table class="cat">
+      <tr class="cat__row">
+        <td rowspan="2" class="cat__item">
+          <img src="cat/cat_01.jpg" alt="left ear" />
+        </td>
+        <td rowspan="2" class="cat__item">
+          <img src="cat/cat_02.png" alt="right ear" />
+        </td>
+        <td class="cat__item">
+          <img src="cat/cat_03.png" alt="mouse head" />
+        </td>
+      </tr>
+      <tr class="cat__row">
+        <td rowspan="2" class="cat__item">
+          <img src="cat/cat_04.png" alt="mouse body" />
+        </td>
+      </tr>
+      <tr class="cat__row">
+        <td colspan="2" class="cat__item">
+          <img src="cat/cat_05.png" alt="eyes" />
+        </td>
+      </tr>
+      <tr class="cat__row">
+        <td class="cat__item style">
+          <img src="cat/cat_06.png" alt="cat mustache" />
+        </td>
+        <td colspan="2" class="cat__item">
+          <img src="cat/cat_07.png" alt="cat mouth" />
+        </td>
+      </tr>
+    </table>
+    <table class="dog">
+      <tr class="dog__row">
+        <td class="dog__item">
+          <img src="dog/ulybaka_01.jpg" alt="left eye" />
+        </td>
+        <td rowspan="3" class="dog__item">
+          <img src="dog/ulybaka_02.jpg" alt="right eye" />
+        </td>
+        <td class="dog__item">
+          <img src="dog/ulybaka_03.jpg" alt="ear" />
+        </td>
+      </tr>
+      <tr>
+        <td rowspan="3" class="dog__item">
+          <img src="dog/ulybaka_04.jpg" alt="teeth" />
+        </td>
+        <td class="dog__item">
+          <img src="dog/ulybaka_05.jpg" alt="paw" />
+        </td>
+      </tr>
+      <tr>
+        <td class="dog__item">
+          <img src="dog/ulybaka_06.jpg" alt="paws" />
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2" class="dog__item">
+          <img src="dog/ulybaka_07.jpg" alt="paws" />
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
